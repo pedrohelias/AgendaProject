@@ -1,0 +1,21 @@
+python -m venv dev_django
+                (nome do projeto)
+                
+                
+pip freeze -> Fala as versões dos programas
+
+(DENTRO DE PROJETO1)
+
+django-admin startproject hello_django
+			(NOME DO PROJETO)
+
+django-admin startapp core
+			(nome da pasta - cria uma pasta com utilidades dentro do arquivo do projeto)
+
+
+no terminal, dentro do arquivo criado, digitar:
+python3 manage.py runserver (Vai gerar o servidor)
+
+python3 manage.py migrate (cria as tabelas)
+
+python3 manage.py createsuperuser --username admin (criar um usuário)
