@@ -19,3 +19,5 @@ python3 manage.py runserver (Vai gerar o servidor)
 python3 manage.py migrate (cria as tabelas)
 
 python3 manage.py createsuperuser --username admin (criar um usuário)
+
+testeaqui
